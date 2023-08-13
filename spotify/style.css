@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Oswald:wght@200;300;400&family=Ubuntu:ital,wght@1,300&display=swap');
+
+body{
+    background-color: antiquewhite;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu',sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    height: 65px;
+    background-color: black;
+    color: aliceblue;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img {
+    
+    width: 44px;
+    padding: 0 8px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-weight: 'Varela round',sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 15px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+
+    
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 12px 0;
+     
+}
+.icons{
+    margin-top: 15px;
+}
+.icons i{
+    cursor: pointer;
+
+}
+ 
+#myprogessbar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 44px;
+
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: rgb(202, 226, 233);
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    
+
+}
+.songItem img{ 
+    width: 43px;
+    margin: 0 23px 0;
+    border-radius: 34px;
+    
+}
+.timestamp{
+    margin: 0 23px;
+    
+}
+.timestamp i {
+    cursor: pointer;
+}
+.songinfo {
+    position: absolute;
+    left: 10vw;
+    font-weight: 'Varela round',sans-serif;
+
+}
+.songinfo img{
+    opacity: 0;
+    transition:opacity 0.4s ease-in;
+}
